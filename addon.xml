@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.openwizard" name="[COLOR limegreen]Open[/COLOR]Wizard" version="1.4.9" provider-name="drinfernoo">
+<addon id="plugin.program.smplwizard" name="[COLOR aquamarine]SMPL[/COLOR]Wizard" version="1.4.9" provider-name="nosanctuary00">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
@@ -15,11 +15,11 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR limegreen]Open[/COLOR]Wizard</summary>
-        <description lang="en">[COLOR limegreen]Open[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <summary lang="en">[COLOR aquamarine]SMPL[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR aquamarine]SMPL[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs. Forked from [COLOR limegreen]Open[/COLOR]Wizard.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/drinfernoo/plugin.program.openwizard/</source>
+        <source>https://www.github.com/nosanctuary00/plugin.program.smplwizard/</source>
         <news>
 1.4.9
  - Fix Error Related to Log
